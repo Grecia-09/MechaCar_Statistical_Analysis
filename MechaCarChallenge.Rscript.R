@@ -12,7 +12,6 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 # Deliverable 2
 
 # Creating visualizations for the Trip Analysis
-
 Suspension_Coil <- read.csv(file='Suspension_coil.csv',check.names=F,stringsAsFactors = F) # read the file
 
 summarize_demo <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI)) # get a total summary
@@ -21,7 +20,7 @@ lot_demo <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=m
 
 # Deliverable 3
 
-# Perform t-test
+# Performing t-test
 t.test(Suspension_Coil$PSI,mu = 1500) # perform t-test across all lots
 Lot1 <- subset(Suspension_Coil, Manufacturing_Lot=='Lot1') # Create subset for lot 1 cars
 t.test(x=Lot1$PSI, mu=1500) # t test on lot 1 cars' PSI with a mean of 1500
