@@ -44,7 +44,7 @@ On this section I performed a t-tests to determine if all manufacturing lots and
 
 ***All three lots test***
 
-<img width="532" alt="Screen Shot 2021-01-15 at 4 35 50 PM" src="https://user-images.githubusercontent.com/70611325/104791998-ac52b100-5751-11eb-8cf6-bbe1a67eb5e8.png">
+<img width="404" alt="Screen Shot 2021-01-18 at 3 28 44 PM" src="https://user-images.githubusercontent.com/70611325/104970887-e4e8c980-59a1-11eb-8611-c107441d6469.png">
 
 ***Lot 1 test***
 
@@ -52,7 +52,7 @@ On this section I performed a t-tests to determine if all manufacturing lots and
 
 ***Lot 2 test***
 
-<img width="571" alt="Lot 2 2021-01-15 at 4 42 23 PM" src="https://user-images.githubusercontent.com/70611325/104792019-bd032700-5751-11eb-84c0-cff1b15b46c1.png">
+<img width="451" alt="Screen Shot 2021-01-18 at 3 28 35 PM" src="https://user-images.githubusercontent.com/70611325/104970889-e7e3ba00-59a1-11eb-8f58-ee1c09924ab2.png">>
 
 ***Lot 3 test***
 
@@ -64,6 +64,24 @@ Assuming the significance level of 0.05 percent, the p-value for all manufacturi
 
 When most people start thinking about getting a car, all they can think about is looking for speed but also have to use less gas to go a given distance. Based on that, the metrics which would be of interest to a potential consumer are fuel efficiency and horsepower (hp). By tackling these metrics wisely, MechaCar could outperform the competition.
 
+- Fuel Efficency refers to the ability of a vehicle to extract energy from fuel. The more energy a vehicle can extract from fuel, the greater fuel-efficiency the vehicle is said to have. This is important because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. In the United States, fuel efficiency is expressed as "miles per gallon" (mpg).
+
+  * H0: The means of mpg of all groups are equal.
+  * Ha: At least one of the means of mpg is different from the other groups.
+  
+  We should use an ANOVA test to compare the means of a continuous numerical variable across a number of groups. A one-way ANOVA is used to test the means of a       single dependent variable across a single independent variable with multiple groups, and determine whether any of those means are statistically significantly       different from each other. 
+  
+  For conducting this test, fuel efficiency data of all the concerned manufacturers is required.
+  
+- Horsepower(hp) refers to the power an engine produces, we can think of higher horsepower being the specification that will sustain a higher rate of work once moving.
+  
+  * H0: The means of hp of all groups are equal.
+  * Ha:  At least one of the means of hp is different from the other groups.
+  
+   For this second metric, we should perform an one-way ANOVA test as well to determine if there’s a difference between the horsepower sample mean and horsepower      population mean.
+   
+    For conducting this test, horsepower data of all the concerned manufacturers is required.
+  
 
 
 
