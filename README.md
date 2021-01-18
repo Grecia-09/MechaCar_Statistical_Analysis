@@ -6,7 +6,7 @@ The purpose of this analysis is to offer insights on the MechaCar's production d
 
 ## Linear Regression to Predict MPG
 
-For this section I workec with one the dataset that was provided, which is the miles per gallon dataset. From there, I preformed a multiple linear regression to see if it could predict the miles per gallon (mpg) dependent variable by using the vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables.
+For this section I worked with one of the dataset that was provided, which is the miles per gallon dataset. From there, I preformed a multiple linear regression to see if it could predict the miles per gallon (mpg) dependent variable by using the vehicle length, vehicle weight, spoiler angle, ground clearance, and all wheel drive (AWD) independent variables.
 
 ***1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?***
 
