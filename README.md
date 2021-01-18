@@ -62,7 +62,7 @@ Assuming the significance level of 0.05 percent, the p-value for all manufacturi
 
 ## Study Design: MechaCar vs Competition
 
-
+When most people start thinking about getting a car, all they can think about is looking for speed but also have to use less gas to go a given distance. Based on that, the metrics which would be of interest to a potential consumer are fuel efficiency and horsepower (hp). By tackling these metrics wisely, MechaCar could outperform the competition.
 
 
 
